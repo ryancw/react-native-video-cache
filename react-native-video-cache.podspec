@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.license      = "MIT"
   # s.license    = { :type => "MIT", :file => "FILE_LICENSE" }
   s.authors      = { "Kyle Fang" => "zhigang1992@gmail.com" }
-  s.platforms    = { :ios => "9.0" }
+  s.platforms    = { :tvos => "9.0" }
   s.source       = { :git => "https://github.com/zhigang1992/react-native-video-cache.git", :tag => "#{s.version}" }
 
   s.source_files = "ios/**/*.{h,m,swift}"
